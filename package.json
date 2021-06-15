@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-ctor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Multidimensional array constructor.",
   "license": "Apache-2.0",
   "author": {
