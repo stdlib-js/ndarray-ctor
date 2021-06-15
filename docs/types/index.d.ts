@@ -20,8 +20,8 @@
 
 /// <reference types="@stdlib/types"/>
 
-import { ArrayLike } from '@stdlib/types/array';
-import { ndarray, DataType, Mode, Order } from '@stdlib/types/ndarray';
+import { ArrayLike } from '@stdlib/types-array';
+import { ndarray, DataType, Mode, Order } from '@stdlib/types-ndarray';
 import { Buffer } from 'buffer';
 
 /**
