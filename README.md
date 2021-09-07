@@ -898,7 +898,7 @@ Notes:
 
 -   The user is responsible for freeing the allocated memory.
 
-#### stdlib_ndarray_bytelength( *arr )
+#### stdlib_ndarray_bytelength( \*arr )
 
 Returns the size of an ndarray (in bytes).
 
@@ -936,7 +936,7 @@ The function accepts the following arguments:
 int64_t stdlib_ndarray_bytelength( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_data( *arr )
+#### stdlib_ndarray_data( \*arr )
 
 Returns a pointer to an ndarray's underlying byte array.
 
@@ -974,7 +974,7 @@ The function accepts the following arguments:
 uint8_t * stdlib_ndarray_data( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_dimension( *arr, i )
+#### stdlib_ndarray_dimension( \*arr, i )
 
 Returns an ndarray dimension.
 
@@ -1017,7 +1017,7 @@ Notes:
 
 -   The function does perform bounds checking for the dimension index.
 
-#### stdlib_ndarray_disable_flags( *arr, flags )
+#### stdlib_ndarray_disable_flags( \*arr, flags )
 
 Disables specified ndarray flags.
 
@@ -1062,7 +1062,7 @@ Notes:
 
 -   The function does not perform any sanity checks and **assumes** the user knows what s/he is doing.
 
-#### stdlib_ndarray_dtype( *arr )
+#### stdlib_ndarray_dtype( \*arr )
 
 Returns the data type of an ndarray.
 
@@ -1100,7 +1100,7 @@ The function accepts the following arguments:
 int16_t stdlib_ndarray_dtype( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_enable_flags( *arr, flags )
+#### stdlib_ndarray_enable_flags( \*arr, flags )
 
 Enables specified ndarray flags.
 
@@ -1145,7 +1145,7 @@ Notes:
 
 -   The function does not perform any sanity checks and **assumes** the user knows what s/he is doing.
 
-#### stdlib_ndarray_flags( *arr )
+#### stdlib_ndarray_flags( \*arr )
 
 Returns ndarray flags as a single integer value.
 
@@ -1183,7 +1183,7 @@ The function accepts the following arguments:
 int64_t stdlib_ndarray_flags( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_free( *arr )
+#### stdlib_ndarray_free( \*arr )
 
 Frees an ndarray's allocated memory.
 
@@ -1215,7 +1215,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_free( struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_has_flags( *arr, flags )
+#### stdlib_ndarray_has_flags( \*arr, flags )
 
 Tests whether an ndarray has specified flags enabled.
 
@@ -1256,7 +1256,7 @@ The function returns `1` if flags are set and `0` otherwise.
 int8_t stdlib_ndarray_has_flags( const struct ndarray *arr, const int64_t flags );
 ```
 
-#### stdlib_ndarray_index_mode( *arr )
+#### stdlib_ndarray_index_mode( \*arr )
 
 Returns the index mode of an ndarray.
 
@@ -1294,7 +1294,7 @@ The function accepts the following arguments:
 int8_t stdlib_ndarray_index_mode( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_length( *arr )
+#### stdlib_ndarray_length( \*arr )
 
 Returns the number of elements in an ndarray.
 
@@ -1332,7 +1332,7 @@ The function accepts the following arguments:
 int64_t stdlib_ndarray_length( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_ndims( *arr )
+#### stdlib_ndarray_ndims( \*arr )
 
 Returns the number of ndarray dimensions.
 
@@ -1370,7 +1370,7 @@ The function accepts the following arguments:
 int64_t stdlib_ndarray_ndims( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_nsubmodes( *arr )
+#### stdlib_ndarray_nsubmodes( \*arr )
 
 Returns the number of ndarray subscript modes.
 
@@ -1408,7 +1408,7 @@ The function accepts the following arguments:
 int64_t stdlib_ndarray_nsubmodes( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_offset( *arr )
+#### stdlib_ndarray_offset( \*arr )
 
 Returns an ndarray index offset (in bytes).
 
@@ -1446,7 +1446,7 @@ The function accepts the following arguments:
 int64_t stdlib_ndarray_offset( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_order( *arr )
+#### stdlib_ndarray_order( \*arr )
 
 Returns the order of an ndarray.
 
@@ -1484,7 +1484,7 @@ The function accepts the following arguments:
 int8_t stdlib_ndarray_order( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_shape( *arr )
+#### stdlib_ndarray_shape( \*arr )
 
 Returns a pointer to an array containing an ndarray shape (dimensions).
 
@@ -1522,7 +1522,7 @@ The function accepts the following arguments:
 int64_t * stdlib_ndarray_shape( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_stride( *arr, i )
+#### stdlib_ndarray_stride( \*arr, i )
 
 Returns an ndarray stride (in bytes).
 
@@ -1565,7 +1565,7 @@ Notes:
 
 -   the function does perform bounds checking for the dimension index.
 
-#### stdlib_ndarray_strides( *arr )
+#### stdlib_ndarray_strides( \*arr )
 
 Returns a pointer to an array containing ndarray strides (in bytes).
 
@@ -1603,7 +1603,7 @@ The function accepts the following arguments:
 int64_t * stdlib_ndarray_strides( const struct ndarray *arr );
 ```
 
-#### stdlib_ndarray_submode( *arr, i )
+#### stdlib_ndarray_submode( \*arr, i )
 
 Returns an ndarray subscript mode.
 
@@ -1647,7 +1647,7 @@ Notes:
 -   If an ndarray has fewer subscript modes than dimensions, modes are recycled using modulo arithmetic.
 -   The function does not perform bounds checking for the dimension index.
 
-#### stdlib_ndarray_submodes( *arr )
+#### stdlib_ndarray_submodes( \*arr )
 
 Returns ndarray subscript modes.
 
@@ -2517,7 +2517,7 @@ The function accepts the following arguments:
 
 -   **arr**: `[in] struct ndarray*` input ndarray.
 -   **idx**: `[in] int64_t` linear view index.
-   
+
 For zero-dimensional arrays, the function returns a pointer to the first (and only) indexed element, regardless of the value of `idx`.
 
 * * *
@@ -3549,6 +3549,20 @@ int main() {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/ndarray/array`][@stdlib/ndarray/array]</span><span class="delimiter">: </span><span class="description">multidimensional arrays.</span>
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -3613,6 +3627,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/orders]: https://github.com/stdlib-js/ndarray-orders
 
 [@stdlib/ndarray/index-modes]: https://github.com/stdlib-js/ndarray-index-modes
+
+<!-- <related-links> -->
+
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+
+<!-- </related-links> -->
 
 </section>
 
