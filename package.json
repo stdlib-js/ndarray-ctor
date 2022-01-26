@@ -41,6 +41,7 @@
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-array": "^0.0.x",
+    "@stdlib/assert-is-boolean": "^0.0.x",
     "@stdlib/assert-is-collection": "^0.0.x",
     "@stdlib/assert-is-function": "^0.0.x",
     "@stdlib/assert-is-integer": "^0.0.x",
@@ -79,8 +80,8 @@
     "@stdlib/bench": "^0.0.x",
     "@stdlib/complex-float32": "^0.0.x",
     "@stdlib/complex-float64": "^0.0.x",
-    "@stdlib/complex-imag": "^0.0.x",
-    "@stdlib/complex-real": "^0.0.x",
+    "@stdlib/complex-imagf": "^0.0.x",
+    "@stdlib/complex-realf": "^0.0.x",
     "@stdlib/math-base-special-floor": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
