@@ -3615,19 +3615,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[umd]: https://github.com/umdjs/umd
-[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
-[deno-url]: https://github.com/stdlib-js/ndarray-ctor/tree/deno
-[umd-url]: https://github.com/stdlib-js/ndarray-ctor/tree/umd
-[esm-url]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
-
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
+
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/ndarray-ctor/tree/deno
+[umd-url]: https://github.com/stdlib-js/ndarray-ctor/tree/umd
+[esm-url]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-ctor/main/LICENSE
 
