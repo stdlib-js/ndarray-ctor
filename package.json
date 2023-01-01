@@ -3,33 +3,7 @@
   "version": "0.0.10",
   "description": "Multidimensional array constructor.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "benchmark": "./benchmark",
-    "doc": "./docs",
-    "example": "./examples",
-    "include": "./include",
-    "lib": "./lib",
-    "src": "./src",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "main": "./index.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -38,72 +12,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.0.x",
-    "@stdlib/assert-is-array": "^0.0.x",
-    "@stdlib/assert-is-boolean": "^0.0.x",
-    "@stdlib/assert-is-collection": "^0.0.x",
-    "@stdlib/assert-is-function": "^0.0.x",
-    "@stdlib/assert-is-integer": "^0.0.x",
-    "@stdlib/assert-is-integer-array": "^0.0.x",
-    "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
-    "@stdlib/assert-is-nonnegative-integer-array": "^0.0.x",
-    "@stdlib/assert-is-plain-object": "^0.0.x",
-    "@stdlib/complex-float32": "^0.0.x",
-    "@stdlib/complex-float64": "^0.0.x",
-    "@stdlib/ndarray-base-assert-is-buffer-length-compatible": "^0.0.x",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.0.x",
-    "@stdlib/ndarray-base-assert-is-index-mode": "^0.0.x",
-    "@stdlib/ndarray-base-assert-is-order": "^0.0.x",
-    "@stdlib/ndarray-base-bytes-per-element": "^0.0.x",
-    "@stdlib/ndarray-base-ctor": "^0.0.x",
-    "@stdlib/ndarray-base-dtype-char": "^0.0.x",
-    "@stdlib/ndarray-base-ind": "^0.0.x",
-    "@stdlib/ndarray-base-iteration-order": "^0.0.x",
-    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.0.x",
-    "@stdlib/ndarray-base-numel": "^0.0.x",
-    "@stdlib/ndarray-base-strides2order": "^0.0.x",
-    "@stdlib/ndarray-dtypes": "^0.0.x",
-    "@stdlib/ndarray-index-modes": "^0.0.x",
-    "@stdlib/ndarray-orders": "^0.0.x",
-    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
-    "@stdlib/types": "^0.0.x",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
-    "@stdlib/utils-inherit": "^0.0.x",
-    "@stdlib/utils-library-manifest": "^0.0.x"
-  },
-  "devDependencies": {
-    "@stdlib/array-complex128": "^0.0.x",
-    "@stdlib/array-complex64": "^0.0.x",
-    "@stdlib/array-float32": "^0.0.x",
-    "@stdlib/array-float64": "^0.0.x",
-    "@stdlib/assert-has-property": "^0.0.x",
-    "@stdlib/assert-instance-of": "^0.0.x",
-    "@stdlib/assert-is-positive-integer": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/complex-imagf": "^0.0.x",
-    "@stdlib/complex-realf": "^0.0.x",
-    "@stdlib/math-base-special-floor": "^0.0.x",
-    "@stdlib/random-base-randu": "^0.0.x",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdtypes",
@@ -124,7 +32,6 @@
     "ctor",
     "numpy.ndarray"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "patreon",
     "url": "https://www.patreon.com/athan"
