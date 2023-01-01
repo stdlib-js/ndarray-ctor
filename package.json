@@ -49,6 +49,8 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/assert-is-nonnegative-integer-array": "^0.0.x",
     "@stdlib/assert-is-plain-object": "^0.0.x",
+    "@stdlib/complex-float32": "^0.0.x",
+    "@stdlib/complex-float64": "^0.0.x",
     "@stdlib/ndarray-base-assert-is-buffer-length-compatible": "^0.0.x",
     "@stdlib/ndarray-base-assert-is-data-type": "^0.0.x",
     "@stdlib/ndarray-base-assert-is-index-mode": "^0.0.x",
@@ -79,15 +81,13 @@
     "@stdlib/assert-instance-of": "^0.0.x",
     "@stdlib/assert-is-positive-integer": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
-    "@stdlib/complex-float32": "^0.0.x",
-    "@stdlib/complex-float64": "^0.0.x",
     "@stdlib/complex-imagf": "^0.0.x",
     "@stdlib/complex-realf": "^0.0.x",
     "@stdlib/math-base-special-floor": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "2.x.x"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
   "engines": {
     "node": ">=0.10.0",
