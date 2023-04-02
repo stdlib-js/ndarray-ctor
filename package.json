@@ -63,6 +63,7 @@
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.0.8",
     "@stdlib/ndarray-base-numel": "^0.0.8",
     "@stdlib/ndarray-base-strides2order": "^0.0.6",
+    "@stdlib/ndarray-defaults": "github:stdlib-js/ndarray-defaults#main",
     "@stdlib/ndarray-dtypes": "^0.0.9",
     "@stdlib/ndarray-index-modes": "^0.0.8",
     "@stdlib/ndarray-orders": "^0.0.8",
