@@ -52,7 +52,7 @@
     "@stdlib/complex-float32": "^0.1.0",
     "@stdlib/complex-float64": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-buffer-length-compatible": "^0.1.0",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.0.8",
+    "@stdlib/ndarray-base-assert-is-data-type": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-index-mode": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-order": "^0.1.0",
     "@stdlib/ndarray-base-bytes-per-element": "^0.1.0",
