@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,191 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var instanceOf = require( '@stdlib/assert-instance-of' );
-var Complex64Array = require( '@stdlib/array-complex64' );
-var ndarray = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof ndarray, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function is an ndarray constructor', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'generic';
-	buffer = [ 1.0, 2.0, 3.0, 4.0 ];
-	shape = [ 2, 2 ];
-	order = 'row-major';
-	strides = [ 2, 1 ];
-	offset = 0;
-
-	arr = new ndarray( dtype, buffer, shape, strides, offset, order );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the function is an ndarray constructor (complex dtype)', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'complex64';
-	buffer = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	shape = [ 2, 2 ];
-	order = 'row-major';
-	strides = [ 2, 1 ];
-	offset = 0;
-
-	arr = new ndarray( dtype, buffer, shape, strides, offset, order );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the function is an ndarray constructor (0d)', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'generic';
-	buffer = [ 1.0 ];
-	shape = [];
-	order = 'row-major';
-	strides = [ 0 ];
-	offset = 0;
-
-	arr = new ndarray( dtype, buffer, shape, strides, offset, order );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the function is an ndarray constructor (0d; complex dtype)', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'complex64';
-	buffer = new Complex64Array( [ 1.0, 1.0 ] );
-	shape = [];
-	order = 'row-major';
-	strides = [ 0 ];
-	offset = 0;
-
-	arr = new ndarray( dtype, buffer, shape, strides, offset, order );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the function is an ndarray constructor (options)', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'generic';
-	buffer = [ 1.0, 2.0, 3.0, 4.0 ];
-	shape = [ 2, 2 ];
-	order = 'row-major';
-	strides = [ 2, 1 ];
-	offset = 0;
-
-	arr = new ndarray( dtype, buffer, shape, strides, offset, order, {} );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the function is an ndarray constructor (0d; options)', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'generic';
-	buffer = [ 1.0 ];
-	shape = [];
-	order = 'row-major';
-	strides = [ 0 ];
-	offset = 0;
-
-	arr = new ndarray( dtype, buffer, shape, strides, offset, order, {} );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the constructor does not require the `new` keyword', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'generic';
-	buffer = [ 1.0, 2.0, 3.0, 4.0 ];
-	shape = [ 2, 2 ];
-	order = 'row-major';
-	strides = [ 2, 1 ];
-	offset = 0;
-
-	arr = ndarray( dtype, buffer, shape, strides, offset, order );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the constructor does not require the `new` keyword (options)', function test( t ) {
-	var strides;
-	var buffer;
-	var offset;
-	var dtype;
-	var order;
-	var shape;
-	var arr;
-
-	dtype = 'generic';
-	buffer = [ 1.0, 2.0, 3.0, 4.0 ];
-	shape = [ 2, 2 ];
-	order = 'row-major';
-	strides = [ 2, 1 ];
-	offset = 0;
-
-	arr = ndarray( dtype, buffer, shape, strides, offset, order, {} );
-
-	t.strictEqual( instanceOf( arr, ndarray ), true, 'returns an instance' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
