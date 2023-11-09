@@ -68,7 +68,7 @@
     "@stdlib/ndarray-index-modes": "^0.1.1",
     "@stdlib/ndarray-orders": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "@stdlib/utils-inherit": "^0.1.1",
     "@stdlib/utils-library-manifest": "^0.1.1"
@@ -81,7 +81,7 @@
     "@stdlib/assert-has-property": "^0.1.1",
     "@stdlib/assert-instance-of": "^0.1.1",
     "@stdlib/assert-is-positive-integer": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/complex-imagf": "^0.1.1",
     "@stdlib/complex-realf": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
