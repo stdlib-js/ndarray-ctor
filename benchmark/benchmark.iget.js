@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var pkg = require( './../package.json' ).name;
 var ndarray = require( './../lib' );
 
