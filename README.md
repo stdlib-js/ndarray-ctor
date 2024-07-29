@@ -56,7 +56,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-ndarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@umd/browser.js' )
+ndarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -68,7 +68,7 @@ var ndarray = require( 'path/to/vendor/umd/ndarray-ctor/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -689,7 +689,7 @@ The method does **not** serialize data outside of the buffer region defined by t
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
