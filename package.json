@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-is-array": "^0.2.2",
+    "@stdlib/assert-is-array-like-object": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
@@ -81,6 +81,7 @@
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-property": "^0.2.2",
     "@stdlib/assert-instance-of": "^0.2.2",
+    "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-positive-integer": "^0.2.2",
     "@stdlib/complex-float32-imag": "^0.1.1",
     "@stdlib/complex-float32-real": "^0.1.1",
