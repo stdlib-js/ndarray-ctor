@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-04-14)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`f22a9ab`](https://github.com/stdlib-js/stdlib/commit/f22a9ab1c1c50aacc3529b77401469c915f79aaf) - ensure support for allocating zero-dimensional ndarrays
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,8 @@
 
 <details>
 
+-   [`7536870`](https://github.com/stdlib-js/stdlib/commit/75368709f4bdeb91221d08492b5a0bc9c94f5b71) - **docs:** fix example and update docs _(by Athan Reines)_
+-   [`f22a9ab`](https://github.com/stdlib-js/stdlib/commit/f22a9ab1c1c50aacc3529b77401469c915f79aaf) - **fix:** ensure support for allocating zero-dimensional ndarrays _(by Athan Reines)_
 -   [`453c7f9`](https://github.com/stdlib-js/stdlib/commit/453c7f9f7c8ac5b8817b1d81f98af42570f1d0a5) - **refactor:** allow array-like objects containing submodes _(by Athan Reines)_
 
 </details>
