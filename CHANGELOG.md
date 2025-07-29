@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-07-29)
 
 <section class="bug-fixes">
 
@@ -16,12 +16,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#7767](https://github.com/stdlib-js/stdlib/issues/7767)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`fd9f8d2`](https://github.com/stdlib-js/stdlib/commit/fd9f8d2b7cb5d4a8c7f2a9cef97e7a0b246523f6) - **chore:** fix C lint errors [(#7769)](https://github.com/stdlib-js/stdlib/pull/7769) _(by GeoDaoyu)_
 -   [`7536870`](https://github.com/stdlib-js/stdlib/commit/75368709f4bdeb91221d08492b5a0bc9c94f5b71) - **docs:** fix example and update docs _(by Athan Reines)_
 -   [`f22a9ab`](https://github.com/stdlib-js/stdlib/commit/f22a9ab1c1c50aacc3529b77401469c915f79aaf) - **fix:** ensure support for allocating zero-dimensional ndarrays _(by Athan Reines)_
 -   [`453c7f9`](https://github.com/stdlib-js/stdlib/commit/453c7f9f7c8ac5b8817b1d81f98af42570f1d0a5) - **refactor:** allow array-like objects containing submodes _(by Athan Reines)_
@@ -36,9 +49,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   GeoDaoyu
 
 </section>
 
