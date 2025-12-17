@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2025-12-17)
 
 <section class="bug-fixes">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#7767](https://github.com/stdlib-js/stdlib/issues/7767), [#8225](https://github.com/stdlib-js/stdlib/issues/8225)
+[#7767](https://github.com/stdlib-js/stdlib/issues/7767), [#8225](https://github.com/stdlib-js/stdlib/issues/8225), [#9109](https://github.com/stdlib-js/stdlib/issues/9109)
 
 </section>
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`a21edb1`](https://github.com/stdlib-js/stdlib/commit/a21edb10488a1a40457575ca21f07257c1ef5369) - **chore:** fix C lint errors [(#9111)](https://github.com/stdlib-js/stdlib/pull/9111) _(by Geo Daoyu)_
 -   [`0eda9b1`](https://github.com/stdlib-js/stdlib/commit/0eda9b1af1d384b1a6be6fe1e80b36a32f69d55c) - **chore:** specify ESLint doctest alias _(by Philipp Burckhardt)_
 -   [`a0de0e6`](https://github.com/stdlib-js/stdlib/commit/a0de0e64cebbdca08b7625a8357902c08268e92e) - **chore:** fix JavaScript lint errors [(#8226)](https://github.com/stdlib-js/stdlib/pull/8226) _(by Bhupesh Kumar, Athan Reines)_
 -   [`a3e7978`](https://github.com/stdlib-js/stdlib/commit/a3e79786217bf1c9a84875203251af82cc93a222) - **docs:** update markup _(by Athan Reines)_
