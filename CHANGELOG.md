@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-17)
+## Unreleased (2026-01-27)
+
+<section class="features">
+
+### Features
+
+-   [`3d21748`](https://github.com/stdlib-js/stdlib/commit/3d2174821f71a70dbb3052da07e0a3b3f6dfbaa0) - add function to return the index offset in units of elements
+-   [`dd45a8f`](https://github.com/stdlib-js/stdlib/commit/dd45a8fcec70ba4716ec67606a448721a723f54b) - add function to return a dimension stride in units of elements
+-   [`b00ba84`](https://github.com/stdlib-js/stdlib/commit/b00ba84689ed039d0896209f94716c187cd6cccb) - add function for returning the number of bytes per ndarray element
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -15,6 +27,19 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`cf38d87`](https://github.com/stdlib-js/stdlib/commit/cf38d87a6820408d2ec054cbf0e20561e8352deb): rename `stdlib_ndarray_bytelength` to `stdlib_ndarray_byte_length`
+
+    -   To migrate, users using the C API should update their call signatures
+        accordingly.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -34,6 +59,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`b6a0e1f`](https://github.com/stdlib-js/stdlib/commit/b6a0e1f3b0044a068a51acd7cd1352ab0f8e4a60) - **bench:** fix call signature _(by Athan Reines)_
+-   [`3d21748`](https://github.com/stdlib-js/stdlib/commit/3d2174821f71a70dbb3052da07e0a3b3f6dfbaa0) - **feat:** add function to return the index offset in units of elements _(by Athan Reines)_
+-   [`dd45a8f`](https://github.com/stdlib-js/stdlib/commit/dd45a8fcec70ba4716ec67606a448721a723f54b) - **feat:** add function to return a dimension stride in units of elements _(by Athan Reines)_
+-   [`b00ba84`](https://github.com/stdlib-js/stdlib/commit/b00ba84689ed039d0896209f94716c187cd6cccb) - **feat:** add function for returning the number of bytes per ndarray element _(by Athan Reines)_
+-   [`cf38d87`](https://github.com/stdlib-js/stdlib/commit/cf38d87a6820408d2ec054cbf0e20561e8352deb) - **refactor:** rename `stdlib_ndarray_bytelength` to `stdlib_ndarray_byte_length` _(by Athan Reines)_
 -   [`a21edb1`](https://github.com/stdlib-js/stdlib/commit/a21edb10488a1a40457575ca21f07257c1ef5369) - **chore:** fix C lint errors [(#9111)](https://github.com/stdlib-js/stdlib/pull/9111) _(by Geo Daoyu)_
 -   [`0eda9b1`](https://github.com/stdlib-js/stdlib/commit/0eda9b1af1d384b1a6be6fe1e80b36a32f69d55c) - **chore:** specify ESLint doctest alias _(by Philipp Burckhardt)_
 -   [`a0de0e6`](https://github.com/stdlib-js/stdlib/commit/a0de0e64cebbdca08b7625a8357902c08268e92e) - **chore:** fix JavaScript lint errors [(#8226)](https://github.com/stdlib-js/stdlib/pull/8226) _(by Bhupesh Kumar, Athan Reines)_
