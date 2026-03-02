@@ -56,7 +56,7 @@
     "@stdlib/ndarray-base-assert-is-index-mode": "^0.2.3",
     "@stdlib/ndarray-base-assert-is-order": "^0.2.3",
     "@stdlib/ndarray-base-bytes-per-element": "^0.3.1",
-    "@stdlib/ndarray-base-ctor": "^0.3.0",
+    "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-dtype-char": "^0.3.1",
     "@stdlib/ndarray-base-ind": "^0.2.3",
     "@stdlib/ndarray-base-iteration-order": "^0.2.3",
