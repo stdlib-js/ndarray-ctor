@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-17)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6d6b9d4`](https://github.com/stdlib-js/stdlib/commit/6d6b9d42d8904ca49fb55e2ca464780573886aa0) - **bench:** refactor to use string interpolation in `@stdlib/ndarray` [(#11446)](https:-/github.com/stdlib-js/stdlib/pull/11446) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
