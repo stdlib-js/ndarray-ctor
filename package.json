@@ -39,6 +39,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-join": "^0.1.2",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-array-like-object": "^0.2.3",
     "@stdlib/assert-is-boolean": "^0.2.3",
@@ -68,7 +69,7 @@
     "@stdlib/ndarray-index-modes": "^0.2.3",
     "@stdlib/ndarray-orders": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
-    "@stdlib/types": "^0.4.3",
+    "@stdlib/types": "^0.5.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-inherit": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.4",
