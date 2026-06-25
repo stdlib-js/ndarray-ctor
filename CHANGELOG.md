@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`3adbe8a`](https://github.com/stdlib-js/stdlib/commit/3adbe8a17ba4a8ac59a6dbb66085ee84cb78d35d) - **docs:** propagate fixes to sibling packages [(#13133)](https://github.com/stdlib-js/stdlib/pull/13133) _(by Philipp Burckhardt)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`c68f1d9`](https://github.com/stdlib-js/stdlib/commit/c68f1d9fca11a9040ecc51e1c1d05ffa11da3b61) - **docs:** fix default option value _(by Athan Reines)_
 -   [`efdecd0`](https://github.com/stdlib-js/stdlib/commit/efdecd0ca3e6e8a31c0dfe5ee18a91b6d64abd73) - **refactor:** use base array utilities _(by Athan Reines)_
