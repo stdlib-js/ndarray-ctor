@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-31)
+## Unreleased (2026-11-05)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`2d7198f`](https://github.com/stdlib-js/stdlib/commit/2d7198fb01e7deee5f53b4303762c8a350f4ee8a) - **style:** add missing space _(by Athan Reines)_
 -   [`d918587`](https://github.com/stdlib-js/stdlib/commit/d9185877385673e815d7e822c62f949bb3713b58) - **docs:** remove obsolete annotation _(by Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
